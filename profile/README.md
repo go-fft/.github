@@ -19,7 +19,7 @@ replace.
 
 | Repo | What it is |
 |------|------------|
-| [**fft**](https://github.com/go-fft/fft) | the library: `go get github.com/go-fft/fft@latest` (v0.13.x, Go 1.27.1 or later) |
+| [**fft**](https://github.com/go-fft/fft) | the library: `go get github.com/go-fft/fft@latest` (v0.16.x, Go 1.27.1 or later) |
 | [**docs**](https://github.com/go-fft/docs) | the documentation site (Hugo + Relearn), served at [/docs/](https://go-fft.github.io/docs/) |
 | [**go-fft.github.io**](https://github.com/go-fft/go-fft.github.io) | the landing page (Hugo) |
 | [**brand**](https://github.com/go-fft/brand) | logo, icons and social images |
