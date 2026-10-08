@@ -2,7 +2,7 @@
 
 # go-fft
 
-🌐 **[Website](https://go-fft.github.io)** · 📚 **[Documentation](https://go-fft.github.io/docs/)**
+🌐 **[Website](https://go-fft.github.io)** · 📚 **[Documentation](https://go-fft.github.io/docs/)** · ▶️ **[Playground](https://go-fft.github.io/playground/)**
 
 **A pure-Go (no cgo) FFT library**, the `numpy.fft` / `scipy.fft` equivalent for
 Go. Complex and real transforms of any length, N-D transforms, numpy's
