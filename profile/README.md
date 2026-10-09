@@ -19,7 +19,7 @@ replace.
 
 | Repo | What it is |
 |------|------------|
-| [**fft**](https://github.com/go-fft/fft) | the library: `go get github.com/go-fft/fft@latest` (v0.19.x, Go 1.27.1 or later) |
+| [**fft**](https://github.com/go-fft/fft) | the library: `go get github.com/go-fft/fft@latest` (v0.23.x, Go 1.27.1 or later) |
 | [**docs**](https://github.com/go-fft/docs) | the documentation site (Hugo + Relearn), served at [/docs/](https://go-fft.github.io/docs/) |
 | [**go-fft.github.io**](https://github.com/go-fft/go-fft.github.io) | the landing page (Hugo) |
 | [**brand**](https://github.com/go-fft/brand) | logo, icons and social images |
@@ -28,7 +28,9 @@ replace.
 
 Measured against FFTW, numpy and scipy on three GCC Compile Farm hosts (Zen 3,
 Neoverse-N1, Cascade Lake), with every transform first checked against
-`numpy.fft`. The tables, raw runs and the dated optimization rounds, including
+`numpy.fft`. At v0.23.0, go-fft is within 5% of FFTW or faster on all 24
+rows on Neoverse-N1 (faster on 22), on 12 on Zen 3 and on 11 on Cascade Lake,
+and at or above numpy.fft and scipy.fft on all 24 rows on every host. The tables, raw runs and the dated optimization rounds, including
 what was tried and dropped, are in
 [BENCHMARKS.md](https://github.com/go-fft/fft/blob/main/BENCHMARKS.md) and on the
 [performance page](https://go-fft.github.io/docs/performance/).
