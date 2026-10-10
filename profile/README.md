@@ -29,7 +29,7 @@ replace.
 Measured against FFTW, numpy and scipy on three GCC Compile Farm hosts (Zen 3,
 Neoverse-N1, Cascade Lake), with every transform first checked against
 `numpy.fft`. At v0.23.0, go-fft is within 5% of FFTW or faster on all 24
-rows on Neoverse-N1 (faster on 22), on 12 on Zen 3 and on 11 on Cascade Lake,
+rows on Neoverse-N1 (faster on 22), on 15 on Zen 3 and on 11 on Cascade Lake,
 and at or above numpy.fft and scipy.fft on all 24 rows on every host. The tables, raw runs and the dated optimization rounds, including
 what was tried and dropped, are in
 [BENCHMARKS.md](https://github.com/go-fft/fft/blob/main/BENCHMARKS.md) and on the
